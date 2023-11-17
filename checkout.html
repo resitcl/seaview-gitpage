@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Dashboard Seaviewim</title>
+    <meta charset="UTF-8">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css?v=69200" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=69200" type="text/javascript"></script>
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" content="#">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="#">
+    <meta name="twitter:description" content="#">
+    <meta name="twitter:image" content="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
+  </head>
+  <body>
+    <div id="sections">
+      <div class="dashboard">
+        <div class="dashboard__loader">
+          <div class="loader"><svg viewBox="25 25 50 50">	<circle cx="50" cy="50" r="20"></circle></svg></div>
+        </div>
+        <nav class="nav--menu">
+          <div class="nav__logo"> <img src="img/icons/logo_seaviewim.svg" alt="" srcset=""></div>
+          <ul>
+            <li><a href="new_simulation.html" class="a--active"><span class="material-symbols-rounded">token</span>Simulador</a></li>
+            <li><a href="#"><span class="material-symbols-rounded">target</span>Estrategias</a></li>
+            <li><a href="marketplace.html"><span class="material-symbols-rounded">storefront</span>Marketplace</a></li>
+            <li><a href="#"><span class="material-symbols-rounded">groups</span>Asesores</a></li>
+            <li><a href="#"><span class="material-symbols-rounded">person</span>Clientes</a></li>
+            <li><a href="#"><span class="material-symbols-rounded">strategy</span>Estrategias</a></li>
+            <li><a href="#"><span class="material-symbols-rounded">token</span>Movimiento</a></li>
+          </ul>
+        </nav>
+        <div class="dashboard__content">
+          <div class="dashboard__header">
+            <div class="dashboard__header__right">
+              <h2 class="dashboard__title">Checkout</h2><span class="dashboard__breadcrum">Checkout</span>
+            </div>
+            <div class="dashboard__profile"><span class="material-symbols-rounded">account_circle</span></div>
+          </div>
+          <div class="dashboard__box dashboard__box--form">
+            <div class="dashboard__box__header dashboard__box__header--checkout">
+              <h4 class="dashboard__title">Productos seleccionados</h4><span class="dashboard__client">Cliente: John Doe</span>
+              <div class="dashboard__investment-detail">
+                <div class="form__element">
+                  <label for="monto">Monto de inversion</label>
+                  <div class="form__input">
+                    <input type="number" name="monto" placeholder="Ingrese monto">
+                  </div>
+                </div>
+                <div class="form__element">
+                  <label for="moneda">Tipo de moneda </label>
+                  <div class="form__input">
+                    <select name="moneda">
+                      <option value="usd">Dolar Americano</option>
+                      <option value="clp">Chilean peso</option>
+                      <option value="eur">Euro</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dashboard__box__body"> 
+              <table class="table__recomendations">
+                <thead> 
+                  <tr> 
+                    <th>Nombre</th>
+                    <th>Distincion</th>
+                    <th>Tipo</th>
+                    <th>Clase Activos</th>
+                    <th>Porcentaje %</th>
+                    <th>Monto</th>
+                    <th> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr> 
+                    <td>Equity Strategy</td>
+                    <td>Inteligencia Artificial</td>
+                    <td>Core</td>
+                    <td>Renta Variable</td>
+                    <td>
+                      <input type="number" name="porcentaje">
+                    </td>
+                    <td>$2.000.000 CLP</td>
+                    <td> <a href="#"><span class="material-symbols-rounded">delete</span></a></td>
+                  </tr>
+                  <tr> 
+                    <td>Equity Strategy</td>
+                    <td>Inteligencia Artificial</td>
+                    <td>Core</td>
+                    <td>Renta Variable</td>
+                    <td>
+                      <input type="number" name="porcentaje">
+                    </td>
+                    <td>$2.000.000 CLP</td>
+                    <td> <a href="#"><span class="material-symbols-rounded">delete							</span></a></td>
+                  </tr>
+                  <tr> 
+                    <td>Equity Strategy</td>
+                    <td>Inteligencia Artificial</td>
+                    <td>Core</td>
+                    <td>Renta Variable</td>
+                    <td>
+                      <input type="number" name="porcentaje">
+                    </td>
+                    <td>$2.000.000 CLP</td>
+                    <td> <a href="#"><span class="material-symbols-rounded">delete							</span></a></td>
+                  </tr>
+                  <tr> 
+                    <td>Equity Strategy</td>
+                    <td>Inteligencia Artificial</td>
+                    <td>Core</td>
+                    <td>Renta Variable</td>
+                    <td>
+                      <input type="number" name="porcentaje">
+                    </td>
+                    <td>$2.000.000 CLP</td>
+                    <td> <a href="#"><span class="material-symbols-rounded">delete	</span></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="dashboard__box__footer">
+              <div class="dashboard__step"><a href="recomendations.html" class="btn">Generar Contrato</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
