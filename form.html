@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=99299" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=99299" type="text/javascript"></script>
+    <link href="css/main.css?v=86231" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=86231" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -29,13 +29,13 @@
         <nav class="nav--menu">
           <div class="nav__logo"> <img src="img/icons/logo_seaviewim.svg" alt="" srcset=""></div>
           <ul>
-            <li><a href="new_simulation.html" class="a--active"><span class="material-symbols-rounded">token</span>Simulador</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">target</span>Estrategias</a></li>
+            <li><a href="index.html"><span class="material-symbols-rounded">token</span>Simulador</a></li>
             <li><a href="marketplace.html"><span class="material-symbols-rounded">storefront</span>Marketplace</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">groups</span>Asesores</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">person</span>Clientes</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">strategy</span>Estrategias</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">token</span>Movimiento</a></li>
+            <li><a href="movimientos.html"><span class="material-symbols-rounded">token</span>Movimiento</a></li>
+            <li><a href="estrategias.html"><span class="material-symbols-rounded">target</span>Estrategias</a></li>
+            <li><a href="asesores.html"><span class="material-symbols-rounded">groups</span>Asesores</a></li>
+            <li><a href="clientes.html"><span class="material-symbols-rounded">person</span>Clientes</a></li>
+            <li><a href="settings.html"><span class="material-symbols-rounded">settings</span>Ajustes</a></li>
           </ul>
         </nav>
         <div class="dashboard__content">
@@ -47,10 +47,50 @@
           </div>
           <div class="dashboard__box dashboard__box--form">
             <div class="dashboard__box__header">
-              <h4 class="dashboard__title">Formulario de riesgo</h4>
+              <h4 class="dashboard__title"></h4>
+              <div class="dashboard__states dashboard__states--66">
+                <div class="dashboard__state current">
+                  <div class="dashboard__icon"><span class="material-symbols-rounded">contact_mail</span></div>
+                  <p class="dashboard__text">Informacion cliente</p>
+                </div>
+                <div class="dashboard__state current">
+                  <div class="dashboard__icon"> <span class="material-symbols-rounded">checklist</span></div>
+                  <p class="dashboard__text">Formulario riesgo</p>
+                </div>
+                <div class="dashboard__state">
+                  <div class="dashboard__icon"> <span class="material-symbols-rounded">readiness_score</span></div>
+                  <p class="dashboard__text">Puntaje</p>
+                </div>
+              </div>
             </div>
             <div class="dashboard__box__body">
-              <p class="dashboard__description">Conteste las preguntas de riesgo del cliente</p>
+              <div class="dashboard__form">
+                <div class="dashboard__form__header">
+                  <h4 class="dashboard__question-number">Pregunta 6</h4>
+                  <p class="dashboard__question">Si tuvieras la oportunidad de aumentar el rendimiento potencial asumiendo más riesgo (incluyendo la posible pérdida de tu capital principal), por favor indica tu preferencia.</p>
+                </div>
+                <div class="dashboard__form__body">
+                  <form>
+                    <div class="cols">
+                      <div class="col-md-4">
+                        <label>
+                          <input type="checkbox" name="opcion1">No es probable que asuma mas riesgo
+                        </label>
+                      </div>
+                      <div class="col-md-4">
+                        <label>
+                          <input type="checkbox" name="opcion2">Estoy dispuesto a asumir mas riesgo con algunas de mis inversiones
+                        </label>
+                      </div>
+                      <div class="col-md-4">
+                        <label>
+                          <input type="checkbox" name="opcion3">Estoy dispuesto a asumir mucho mas riesgo con algunas de mis inversiones
+                        </label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </div>
           <div class="dashboard__steps">
