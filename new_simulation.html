@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=97564" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=97564" type="text/javascript"></script>
+    <link href="css/main.css?v=25887" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=25887" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -29,13 +29,12 @@
         <nav class="nav--menu">
           <div class="nav__logo"> <img src="img/icons/logo_seaviewim.svg" alt="" srcset=""></div>
           <ul>
-            <li><a href="new_simulation.html" class="a--active"><span class="material-symbols-rounded">token</span>Simulador</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">target</span>Estrategias</a></li>
-            <li><a href="marketplace.html"><span class="material-symbols-rounded">storefront</span>Marketplace</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">groups</span>Asesores</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">person</span>Clientes</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">strategy</span>Estrategias</a></li>
-            <li><a href="#"><span class="material-symbols-rounded">token</span>Movimiento</a></li>
+            <li class="li--active"><span class="material-symbols-rounded">token</span><a href="select_user.html">Simulador</a></li>
+            <li><span class="material-symbols-rounded">storefront</span><a href="marketplace.html">Marketplace</a></li>
+            <li><span class="material-symbols-rounded">token</span><a href="movimientos.html">Movimiento</a></li>
+            <li><span class="material-symbols-rounded">target</span><a href="estrategias.html">Estrategias</a></li>
+            <li><span class="material-symbols-rounded">groups</span><a href="asesores.html">Asesores</a></li>
+            <li><span class="material-symbols-rounded">person</span><a href="clientes.html">Clientes</a></li>
           </ul>
         </nav>
         <div class="dashboard__content">
@@ -45,17 +44,15 @@
             </div>
             <div class="dashboard__profile"><span class="dashboard__icon material-symbols-rounded">account_circle</span></div>
           </div>
-          <div class="dashboard__box dashboard__box--form">
-            <div class="dashboard__box__header">
-              <h4 class="dashboard__title">Nueva Simulacion</h4>
+          <div class="dashboard__box dashboard__box--form dashboard__box--small">
+            <div class="dashboard__bg">
+              <div class="bg"> <img src="img/uploads/investment2.png" alt=""></div>
             </div>
             <div class="dashboard__box__body">
-              <p class="dashboard__description">Antes de iniciar la simulación de riesgo, seleccione el tipo de usuario.</p>
-            </div>
-            <div class="dashboard__box__footer"> 
+              <h4 class="dashboard__title">Nueva Simulacion</h4>
+              <p class="dashboard__description">Seleccione o cree un cliente, responda el cuestionario y obtenga recomendaciones de estrategias de inversión.</p>
               <div class="dashboard__options">
-                <div class="dashboard__option"><a href="select_user.html" class="btn">Ingresar nuevo Cliente</a></div>
-                <div class="dashboard__option"><a href="#" class="btn btn--white">Cliente existente</a></div>
+                <div class="dashboard__option"><a href="select_user.html" class="btn">Ingresar nuevo Simulación</a></div>
               </div>
             </div>
           </div>

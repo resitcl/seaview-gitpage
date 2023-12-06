@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <link href="img/favicon.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/main.css?v=47972" rel="stylesheet" type="text/css">
-    <script src="js/main.js?v=47972" type="text/javascript"></script>
+    <link href="css/main.css?v=77667" rel="stylesheet" type="text/css">
+    <script src="js/main.js?v=77667" type="text/javascript"></script>
     <!-- Meta tags facebook-->
     <meta property="og:title" content="#">
     <meta property="og:description" content="#">
@@ -29,13 +29,12 @@
         <nav class="nav--menu">
           <div class="nav__logo"> <img src="img/icons/logo_seaviewim.svg" alt="" srcset=""></div>
           <ul>
-            <li><a href="index.html"><span class="material-symbols-rounded">token</span>Simulador</a></li>
-            <li><a href="marketplace.html"><span class="material-symbols-rounded">storefront</span>Marketplace</a></li>
-            <li><a href="movimientos.html"><span class="material-symbols-rounded">token</span>Movimiento</a></li>
-            <li><a href="estrategias.html"><span class="material-symbols-rounded">target</span>Estrategias</a></li>
-            <li><a href="asesores.html"><span class="material-symbols-rounded">groups</span>Asesores</a></li>
-            <li><a href="clientes.html"><span class="material-symbols-rounded">person</span>Clientes</a></li>
-            <li><a href="settings.html"><span class="material-symbols-rounded">settings</span>Ajustes</a></li>
+            <li class="li--active"><span class="material-symbols-rounded">token</span><a href="select_user.html">Simulador</a></li>
+            <li><span class="material-symbols-rounded">storefront</span><a href="marketplace.html">Marketplace</a></li>
+            <li><span class="material-symbols-rounded">token</span><a href="movimientos.html">Movimiento</a></li>
+            <li><span class="material-symbols-rounded">target</span><a href="estrategias.html">Estrategias</a></li>
+            <li><span class="material-symbols-rounded">groups</span><a href="asesores.html">Asesores</a></li>
+            <li><span class="material-symbols-rounded">person</span><a href="clientes.html">Clientes</a></li>
           </ul>
         </nav>
         <div class="dashboard__content">
@@ -45,15 +44,9 @@
             </div>
             <div class="dashboard__profile"><span class="material-symbols-rounded">account_circle</span></div>
           </div>
-          <div class="dashboard__box dashboard__box--form">
+          <div class="dashboard__box">
             <div class="dashboard__box__header dashboard__box__header--checkout">
-              <div class="dashboard__box__header__left"></div>
-              <div class="dashboard__box__header__right">
-                <div class="dashboard__create"> <a href="new_asesor" class="btn btn--new">Nueva estrategia<span class="material-symbols-rounded">add</span></a></div>
-              </div>
-            </div>
-            <div class="dashboard__box__body"> 
-              <div class="dashboard__top">
+              <div class="dashboard__box__header__left">
                 <div class="dashboard__search">
                   <div class="form__element">
                     <div class="form__input"> 
@@ -82,6 +75,12 @@
                   </div>
                 </div>
               </div>
+              <div class="dashboard__box__header__right">
+                <div class="dashboard__create"> <a href="new_strategy.html" class="btn btn--new">Nueva estrategia<span class="material-symbols-rounded">add</span></a></div>
+              </div>
+            </div>
+            <div class="dashboard__box__body"> 
+              <div class="dashboard__top"></div>
               <div class="table-container">
                 <table class="table__recomendations">
                   <thead> 
