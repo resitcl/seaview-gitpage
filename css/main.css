@@ -2907,8 +2907,8 @@ article .article__description {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  -ms-flex-align: start;
-      align-items: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
   gap: 0px;
@@ -2985,6 +2985,7 @@ article .article__description {
   margin-bottom: 20px;
   text-align: left;
   color: #000;
+  width: 1020px;
 }
 .dashboard .dashboard__box__body .dashboard__result {
   font-size: 36px;
